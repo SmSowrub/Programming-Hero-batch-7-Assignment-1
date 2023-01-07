@@ -3,6 +3,8 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+/* First part start*/
 .banner{
     background-image: url(./images/banner/banner3.png);
     background-repeat: no-repeat; 
@@ -10,6 +12,45 @@
     background-size: cover;
     height: 808px;
    
+}
+#nav >ul{
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 30px;
+
+}
+#nav li #dropdown{
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+#nav li:hover > #dropdown{
+    display:block;
+}
+#nav li{
+    list-style: none;
+    padding:10px 20px;
+    border: 1px solid #444343;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+#nav li:hover{
+    background-color: #444343;
+    color: aqua;
+}
+#nav button{
+    padding:10px 20px;
+    border:none;
+    margin: 5px 10px;
+    border-radius: 10px;
+    color: darkblue;
+    font-size: 18px;
+    font-weight: 500;
+}
+#nav button:hover{
+    background-color: #005FAC;
+    color: white;
 }
 .banner-site{
     width: 525px;
@@ -47,7 +88,7 @@
     border:none;
 }
 
-/* secund part */
+/* secund part start*/
 
  .Previous-year{
     display: flex;
@@ -96,7 +137,7 @@ color: #444343;
     margin-left: -40px;
 }
 
-/* 3rd part */
+/* 3rd part start*/
 
 .Plans{
     text-align: center;
@@ -135,6 +176,9 @@ color: #444343;
     margin-top: 10px;
 }
 
+
+ /* 4th part start  */
+
 .gradient-part{
     background-image: url(./images/watch.png);
     background-repeat: no-repeat;
@@ -170,6 +214,8 @@ color: #444343;
     border: none;
     margin-top: 20px;
 }
+
+/* footer part start  */
 .footer{
     background-color: black;
     color:white;
@@ -218,3 +264,5 @@ input{
     background-color: #005FAC;
     color:#fff
 }
+
+/* END */

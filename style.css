@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .banner{
     background-image: url(./images/banner/banner3.png);
@@ -89,6 +91,10 @@ color: #444343;
     margin-top: 10px;
     color: #444343;
 }
+#text-section ul li{
+    list-style: none;
+    margin-left: -40px;
+}
 
 /* 3rd part */
 
@@ -175,10 +181,40 @@ color: #444343;
 .future{
     width: 485px;
 }
+#email{
+    color: blue;
+    padding: 10px 0;
+}
+#phone{
+    color:brown
+}
+#future-hadding{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 10px;
+}
 #icons img{
     margin-top: 10px;
     margin-left:15px;
 }
 .Subscribe{
     width: 350px;
+}
+.Subscribe h5{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    background:none;
+    margin-bottom: 20px;
+}
+#subscribe{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #005FAC;
+    color:#fff
 }

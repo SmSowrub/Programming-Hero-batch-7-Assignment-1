@@ -44,3 +44,48 @@
     background-color: #fff;
     border:none;
 }
+
+/* secund part */
+
+ .Previous-year{
+    display: flex;
+    justify-content: space-between;
+    width: 1072px;
+    height: 723.3px;
+    padding: 100px ;
+    position: relative;
+ }
+ #img-site{
+    width: 569px;
+    height: 723.3px;
+ }
+#text-section{
+    width: 416px;
+    height: 400px;
+    position: absolute;
+    top: 380px;
+    left: 842px;
+   
+}
+#text-header{
+ width: 288px;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+margin-bottom: 10px;
+}
+#text-contant{
+ width: 416px;
+top: 1324px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+#text-section ul{
+    width: 349px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: #444343;
+}
